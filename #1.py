@@ -46,3 +46,36 @@ name = input("Введите имя: ")
 print('Привет, ' + name + "!" )
 
 #1.13
+n = int(input())
+print(f"Следующее за числом{n} число - {n+1}.")
+print(f"Для числа {n} предыдущее число - {n-1}")
+
+#1.14
+a = input()
+b = input()
+c = input()
+print(a + "  " + b + "  " + c)
+
+#1.15
+a = input()
+b = input()
+c = input()
+d = input()
+print(a, b, c, d)
+
+#1.16
+t = input()
+v = input()
+x = input()
+y = input()
+
+print(f"a) 5 10  b) 100 {t}  c) {x} 25")
+print(f"7 cm 1949 {v} {x} {y}")
+
+#1.17
+a = input()
+b = input()
+x = input()
+y = input()
+print(f"a) 2 kg  b) {a} 1  c) {x} {y}")
+print(f"13 17 19 {b} 5 {y}")
